@@ -1,0 +1,21 @@
+<head>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Dice Game</h1>
+		<hr>
+		<img src="http://jeffcohenonline.com/dice/<%=@numbers[0]%>.png">
+		<img src="http://jeffcohenonline.com/dice/<%=@numbers[1]%>.png">
+		<h1><%=@status%></h1>
+		<h1><%=@reminder%></h1>
+		<a href=<%=@url%> class="btn btn-lg btn-success"><%=@button%></a>
+	</div>
+</body>
