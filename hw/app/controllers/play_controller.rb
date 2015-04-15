@@ -1,7 +1,7 @@
 class PlayController < ApplicationController
 	$target = 0;
 	def roll
-		@numbers = [1,2,3,4,5,6].sample(2);
+		@numbers = [1,2,3,4,5,6,1,2,3,4,5,6].sample(2);
 		@result = @numbers[1]+@numbers[0];
 		if($target==0)
 			if(@result==7||@result==11)
